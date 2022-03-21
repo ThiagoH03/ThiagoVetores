@@ -31,5 +31,6 @@ public class Vetor2 {
         for(int i = 0; i < tamLista; i++){
             System.out.println("Funcionário(a): " + funcionarios.get(i) + ".");
         }
+        input.close();
     }
 }
