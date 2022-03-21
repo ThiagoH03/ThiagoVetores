@@ -15,7 +15,10 @@ public class Vetor1{
             produtos.add(input.nextLine());
             System.out.print("Número de Estoque: ");
             estoque.add(input.nextInt());
+
+            //Necessário para "pular uma linha" do nextInt, senão não conseguimos receber valor do nextLine
             input.nextLine();
+            
             System.out.println("");
         }
         //Limpar o terminal/console
