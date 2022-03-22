@@ -31,7 +31,7 @@ public class Vetor4 {
         for(int i = 0; i < tamImpares; i++){
             System.out.println(impares.get(i));
         }
-
+        input.close();
 
     }
 }
